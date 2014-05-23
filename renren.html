@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html class="newpublisher" id="newBackground" style="background:url('http://a.xnimg.cn/n/core/cssimg/bg-v7.png') repeat-y scroll center top transparent;">
+<head>
+<meta charset="utf-8" /><meta name="Description" content="人人网 校内是一个真实的社交网络，联络你和你周围的朋友。 加入人人网校内你可以:联络朋友，了解他们的最新动态；和朋友分享相片、音乐和电影；找到老同学，结识新朋友；用照片和日志记录生活,展示自我。" />
+<meta name="Keywords" content="Xiaonei,Renren,校内,大学,同学,同事,白领,个人主页,博客,相册,群组,社区,交友,聊天,音乐,视频,校园,人人,人人网" /><title>人人网 - 任立翔</title><link rel="shortcut icon" type="image/x-icon" href="http://a.xnimg.cn/favicon-rr.ico?ver=3" />
+<link rel="apple-touch-icon" href="http://a.xnimg.cn/wap/apple_icon_.png" /><script>XN = {get_check:'675726076',get_check_x:'f407c156',env:{domain:'renren.com',shortSiteName:'人人',siteName:'人人网'}};
+photoSeedSrc= 'http://s.xnimg.cn/a66061/n/apps/photo/photoSeed.js';
+</script>
+<script src="http://s.xnimg.cn/a67655/n/core/base-all2.js"></script><script type="text/javascript">
+window.isOldVersion = false;
+</script>
+<link href="http://s.xnimg.cn/a67655/n/core/home-frame2-all-min.css" rel="stylesheet"/><script src="http://s.xnimg.cn/a67995/n/core/js/home-frame2.js"></script><script>
+if (window.asyncHTMLManager) {
+window.asyncHTMLManager.addEvent('load', function() {
+load_jebe_ads(1, false, true);
+});
+} else {
+load_jebe_ads(1);
+}XN.getFileVersion([
+'http://s.xnimg.cn/a19816/csspro/apps/profile.css',
+'http://s.xnimg.cn/a54265/csspro/module/friendSelector.css',
+'http://s.xnimg.cn/a16298/csspro/module/status-pop.css',
+'http://s.xnimg.cn/a58689/csspro/module/school-selector.css',
+'http://s.xnimg.cn/a64379/csspro/module/minieditor.css',
+'http://s.xnimg.cn/a20457/jspro/xn.app.recommendFriend.js',
+'http://s.xnimg.cn/a63482/jspro/xn.app.status.js',
+'http://s.xnimg.cn/a67944/jspro/xn.app.share.js',
+'http://s.xnimg.cn/a64158/jspro/xn.app.ilike.js',
+'http://s.xnimg.cn/a58863/jspro/xn.ui.pager.js',
+'http://s.xnimg.cn/a32035/jspro/xn.ui.multiFriendSelectorBox.js',
+'http://s.xnimg.cn/a57199/jspro/xn.app.friend.group.js',
+'http://s.xnimg.cn/a59856/jspro/xn.app.addFriend.js',
+'http://s.xnimg.cn/a5881/jspro/xn.ui.multiFriendSelectorBox.forGuide.js',
+'http://s.xnimg.cn/a65443/jspro/lib/mediaplayer.js',
+'http://s.xnimg.cn/a64992/jspro/xn.ui.schoolSelectors.js',
+'http://s.xnimg.cn/a13200/jspro/album/ZeroClipboard.js',
+'http://s.xnimg.cn/a66084/jspro/xn.ui.emoticons.js',
+'http://s.xnimg.cn/a30963/n/apps/home/modules/drag-upload/drag-upload.js',
+'http://a.xnimg.cn/swf/album/ZeroClipboard.swf?ver=$revxxx$',
+'http://a.xnimg.cn/n/core/modules/flashUploader/flashUploader.js',
+'http://s.xnimg.cn/a33832/n/core/modules/flashUploader/upload-pop-all-min.css',
+'http://s.xnimg.cn/a52793/apps/wiki/css/wiki-card-all-min.css',
+'http://s.xnimg.cn/a57926/apps/wiki/js/wiki_model.js',
+'http://s.xnimg.cn/a52502/apps/wiki/js/wikicard-load.js',
+'http://s.xnimg.cn/a66726/n/core/feed/video/video-show.js'
+]);
+XN.namespace( 'user' );
+XN.$extend(XN.user, {
+'id':'479239535',
+'ruid':'479239535',
+'tinyPic':'http://hdn.xnimg.cn/photos/hdn521/20130214/2300/tiny_GsFe_c5600000fc52111a.jpg',
+'name':"%E4%BB%BB%E7%AB%8B%E7%BF%94",
+'pageVersion':6
+});
+XN.event.addEvent(window, 'load', function(){
+var r = parseInt(Math.random()*150);
+if (r == 5 && window.UGC) UGC.Network.ping.performance.start("100000","sns.home.performance");
+});XN.user.isVip = false;XN.user.hideAds = false;object.predefine('xn/namecard', 'http://s.xnimg.cn/a63148/modules/namecard/js/namecard.js');
+object.predefine('xn/showShareFriend', 'http://s.xnimg.cn/a54260/n/core/modules/show-share-friend/showShareFriendsModule.js');
+object.predefine('xn/mentionMain', 'http://s.xnimg.cn/a64315/n/core/modules/mention/index.js');
+object.predefine('xn/site-nav/switch-account', 'http://s.xnimg.cn/a41752/n/core/modules/site-nav/switch-account.js');
+object.predefine('xn/site-nav/drop-menu-profile xn/site-nav/drop-menu-app', 'http://s.xnimg.cn/a58640/n/core/modules/site-nav/drop-menu.js');
+object.predefine('xn/site-nav/search', 'http://s.xnimg.cn/a55318/n/core/modules/site-nav/search.js');
+object.predefine('xn/ilike', 'http://s.xnimg.cn/a66921/n/core/modules/ilike/index.js');
+object.predefine('xn/group/vote', 'http://s.xnimg.cn/a49736/n/core/feed/group/group-vote.js');
+object.predefine('xn/lib/switch', 'http://s.xnimg.cn/a54374/n/core/lib/switch.js');
+object.predefine('xn/lib/scrollFix', 'http://s.xnimg.cn/a61394/n/core/lib/scrollFix.js');
+object.predefine('xnapp/birthday', 'http://s.xnimg.cn/a59454/apps/home/compatible/birthday.js');
+object.predefine('xn/apps/toolsBox', 'http://s.xnimg.cn/a53568/jspro/modules/tools-box/tools-box.js');
+object.predefine('xn/feed/videoShow','http://s.xnimg.cn/a66726/n/core/feed/video/video-show.js');
+</script>
+<script type="text/javascript">
+window.IS_PRIVACY_ON=true;
+</script><script>
+var temp="[{}]";
+try{
+temp = "{'m106':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/106mzy.png','alt':'果粒奶优','url':'http://track.yx.renren.com/redirect/7637'},'m107':{'imgurl':' http://yx.xnimg.cn/M04/13/1402/24/32iqUzziUvi2q2yMnqAZNJb2.ori.png','alt':'养生堂清嘴','url':'http://ystqz.renren.com'},'m105':{'imgurl':' http://a.xnimg.cn/imgpro/home/maimang.jpg','alt':'麦芒，GO！','url':'http://track.yx.renren.com/redirect/11109'},'m109':{'imgurl':' http://a.xnimg.cn/imgpro/home/icon_shenwu.png','alt':'票选纯妹子赢大奖','url':'http://track.yx.renren.com/redirect/11836'},'m99':{'imgurl':' http://a.xnimg.cn/imgpro/home/niucuilai.png','alt':'好创意赢大奖!','url':'http://nutrilite-creative.renren.com'},'m11':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m11.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m12':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m12.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m13':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m13.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m14':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m14.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m15':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m15.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m16':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m16.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m17':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m17.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m18':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m18.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m19':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m19.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m20':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m20.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m21':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m21.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m22':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m22.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m23':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m23.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m24':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m24.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m25':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m25.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m26':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m26.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m27':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m27.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m28':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m28.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m29':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m29.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m30':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m30.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m31':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m31.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m32':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m32.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m33':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m33.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m34':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m34.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m35':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m35.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m36':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m36.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m37':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m37.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m38':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m38.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m39':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m39.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m40':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m40.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m41':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m41.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'},'m42':{'imgurl':'http://a.xnimg.cn/imgpro/home/feedicon/m42.png','alt':'畅享世界杯','url':'http://HRBFIFA.renren.com/'}}";
+}catch(e){
+console.log("新鲜事的中某些商业活动ICON配置有问题！！");
+}if(typeof(XN.feed)=="undefined"){
+XN.feed = {};
+}
+XN.feed.showact = true;
+XN.feed.fedact=XN.json.parse(temp);
+</script>
+<script>
+XN.$extend(XN, {
+'newHome':true,
+'isWhiteMouse':false,
+'pageId':'home',
+'v7Rec':false
+});
+XN.user.isPage = false;var homeProvince='陕西';
+window.act_show_10000059 = '',
+window.act_show_10000060 = '',
+window.act_show_10000061 = '',
+window.data_10000059 = '',
+window.data_10000060 = '',
+window.data_10000061 = '',
+window.showappWhite = '';
+window.isNewFeedNum = 'true'; 
+window.leftMenuExperimentFlag = '';window.isOldVersion = false;
+window.isToolBoxUser = false;window.asyncHTMLManager.startLoadFrame();
+</script>
+<link ui-rel="prefetchframe" rel="stylesheet" href="http://s.xnimg.cn/a66982/apps/home/home-all-min.css" />
+<script ui-rel="prefetchframe">
+XN.mentionGroup = false;
+</script>
+<script privacy_id="" group_name="公开" privacy_type="99"></script>
+<script ui-rel="prefetchframe" src="http://s.xnimg.cn/a67388/apps/home/compatible/home.js"></script>
+<script ui-rel="prefetchframe">
+// <![CDATA[
+UGC.Network.ping.normal.start("100009", "sns.home.homepage");
+XN.getFileVersion(
+[
+'http://s.xnimg.cn/a34982/csspro/module/friendSelectorAdvanced.css',
+'http://s.xnimg.cn/a33958/jspro/xn.app.feedRelation.js',
+'http://s.xnimg.cn/a51499/jspro/xn.ui.friendSelecotorMenu.js',
+'http://s.xnimg.cn/a34565/jspro/xn.ui.friendSelectorColumn.js',
+'http://s.xnimg.cn/a60669/jspro/xn.app.friendsSelector.js',
+'http://s.xnimg.cn/a57748/jspro/friendsSelector/skin/default-all-min.css'
+]);// ]]>
+</script></head>
+<body class="layout_home3cols"><input type="hidden" id="COLOR_CLOSE_FLAG" value=""/><div id="zidou_template" style="display:none"></div>
+<div id="hometpl_style" style="display:none">
+<br />
+<style>
+</style>
+</div>	
+<div id="showNewNav" style="display:none"></div>
+<div id="dropmenuHolder" class="dropmenu-holder dropmenu-holder-new rr">
+<div id="accountDropDownMenu" class="menu-dropdown" style="display: none">
+<div class="menu-dropdown-border">
+<div class="account-menu">
+<div class="accounts" id="otherAccount" style="display:none"></div>
+<div class="optionmenu options">
+<ul>
+<li><a class="optionprivacy" href="http://safe.renren.com/">帐户设置</a></li>
+<li><a href="http://i.renren.com/" class="optionvip">VIP中心</a></li>
+<li><a href="http://pay.renren.com/" class="optionpay">充值中心</a></li>
+<li><a class="optiondressup" onclick="switchSkin();return false;" href="#">首页换肤</a></li></ul>
+</div><div class="optionsupport"><a href="http://help.renren.com/helpcenter">联系客服</a></div>
+<a accesskey="0" href="http://www.renren.com/Logout.do?requesttoken=675726076" class="logout">退出</a>
+</div>
+</div>
+</div>
+<div id="appsMenuPro" class="menu-dropdown" style="position: absolute; display: block; z-index: 10001; left: -9999px; top: -9999px; "></div></div>
+<div class="site-nav-wrapper">
+<div id="navBar" class="site-nav fixed">
+<div id="navigation-for-buddylist">
+<div class="navigation-wrapper">
+<div class="navigation navigation-new clearfix">
+<div id="logo2"><h1><a href="http://www.renren.com" title="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏"><img alt="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏" title="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏" height="31" width="160" src="http://s.xnimg.cn/imgpro/v6/logo.png?f=home" /></a></h1></div><div class="nav-body clearfix">
+<div class="nav-main"><div class="menu">
+<div class="menu-title">
+<a accesskey="1" href="http://www.renren.com/479239535" ui-async="async"><span class="menu-title-text" stats="V6Hd_home">首页</span></a></div>
+</div><div class="menu">
+<div id="profileMenuActive" class="menu-title"><a id="showProfileMenu" accesskey="2" href="http://www.renren.com/profile.do?id=479239535"><span stats="V6Hd_Profile" class="menu-title-text">个人主页</span><span class="nav-drop-menu-btn"></span></a></div>
+</div>
+<div class="menu"><div class="menu-title" id="friendMenuActive"><a id="showFriendMenu" accesskey="3" href="http://friend.renren.com/myfriendlistx.do"><span class="menu-title-text" stats="V6Hd_frd">好友</span></a></div>
+</div>							
+<div class="menu">
+<div class="menu-title" id="showAppMenu">
+<a href="http://app.renren.com?origin=40182" target="_blank"><span class="menu-title-text">应用</span><span class="nav-drop-menu-btn"></span>
+</a>
+</div>
+</div>											 </div><div class="nav-other">
+<div id="navMessage">
+<span class="remind" title = "提醒">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+</span>
+<span class="apply" title = "朋友">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+</span>
+<span class="notice" title = "通知">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+</span></div>
+<div id="navSearch_new" class="navSearch">
+<input stats="Hd_sInput" type="text" maxlength="100" id="navSearchInput" class="navSearchInput" accesskey="/" name="q" class="input-text" defaultVal="找人、视频、日志、照片" value="找人、视频、日志、照片" tabindex="1" autocomplete="off"/>
+<a href="javascript:;" id="searchBtnAC" class="searchBtnAC">搜索</a>
+</div><div class="menu account-action" id="accountMenu">
+<div class="menu-title"><a href="#" onclick="return false;">帐号</a></div>
+</div></div>
+</div>
+</div>
+<div class="nav-drop-menu-holder" id="navDropMenuHolder"><div class="nav-drop-menu nav-drop-menu-profile" id="navProfileDropMenu"><a class="nav-drop-menu-item" href="http://i.renren.com/store/view/home?wc=10000"><img src="http://a.xnimg.cn/imgpro/icons/Vipdraw.gif" class="icon" /> 装扮主页</a>
+<a class="nav-drop-menu-item" href="http://www.renren.com/profile.do?id=479239535&amp;v=info&amp;act=edit"><img src="http://a.xnimg.cn/imgpro/icons/account.gif" class="icon" /> 修改资料</a></div>
+<div class="nav-app-drop-menu nav-app-drop-menu-a" id="appsMenuWrap"></div></div>
+</div>
+</div>
+</div>
+</div>
+<a stats="home_dressup_new" href="#nogo" onclick="switchSkin('fr=1');return false;" class="dressup-home-btn " id="dressupHomeBtn">首页换肤</a>			<div id="container-for-buddylist"><div id="container"><div id="header" class="clearfix">
+<div class="header-wrapper"><div class="site-header clearfix">
+<div class="user-info clearfix">
+<a href="http://photo.renren.com/getalbumprofile.do?owner=479239535" class="avatar">
+<img src="http://hdn.xnimg.cn/photos/hdn521/20130214/2300/tiny_GsFe_c5600000fc52111a.jpg" width="50" height="50" />
+</a>
+<div class="info">
+<div class="user-name">
+<a href="http://www.renren.com/profile.do?id=479239535" class="name" title="任立翔">任立翔</a>
+</div><div class="icons-grade">
+<span class="icons">
+<a class="expired vip-level" href="http://i.renren.com/pay/pre?wc=2" >1</a></span><span class="live-days-grade">
+<a href="http://sc.renren.com/scores/mycalendar">550天</a>
+</span>
+</div></div>
+</div>
+<div id="global-publisher" class="global-publisher-box"><script>
+(function() {
+var prefix = 'xn/globalpublisher/products/statusdefault/tpl/';
+object.predefine('editor.mustache inputer.mustache loading.mustache success.mustache', 'http://a.xnimg.cn/a55113/modules/global-publisher/products/statusdefault/tpl/film-all.js', prefix + 'film/');
+object.predefine('editor.mustache inputer.mustache loading.mustache success.mustache', 'http://a.xnimg.cn/a54508/modules/global-publisher/products/statusdefault/tpl/share-all.js', prefix + 'share/');
+object.predefine('editor.mustache inputer.mustache loadingBox.mustache result.mustache searching.mustache successBox.mustache', 'http://a.xnimg.cn/a35498/modules/global-publisher/products/statusdefault/tpl/music-all.js', prefix + 'music/');
+object.predefine('inputer.mustache loading.mustache success.mustache', 'http://a.xnimg.cn/a45032/modules/global-publisher/products/statusdefault/tpl/video-all.js', prefix + 'video/');
+object.predefine('editor.mustache success.mustache uploading.mustache uploadIframe.mustache', 'http://a.xnimg.cn/a51746/modules/global-publisher/products/statusdefault/tpl/photo-all.js', prefix + 'photo/');
+object.predefine('ugc/with', 'http://s.xnimg.cn/a57378/jspro/xn.app.with.js');
+object.predefine('friendsSelector', 'http://s.xnimg.cn/a60669/jspro/xn.app.friendsSelector.js');
+object.predefine('privacy', 'http://s.xnimg.cn/a58377/jspro/xn.app.privacy.js');
+object.predefine('privacy/component/guide', 'http://s.xnimg.cn/a59350/jspro/xn.app.privacy.guide.js');
+})();
+</script>
+<div class="global-publisher-module" data-publishtogroupsapi="http://shell.renren.com/479239535/channel">
+<form class="status-global-publisher" action="http://shell.renren.com/479239535/status" method="post">
+<div id="global-publisher-status-box" class="global-publisher-status-box">
+<article id="global-publisher-status">
+<section>
+<div class="editor-box">
+<div class="status-editor">
+<div class="status-inputer">
+<dl class="global-publisher-selector">
+<dd class="global-publisher-selector-status active"><a class="global-publisher-status-trigger" href="#nogo" onclick="return false;">发状态</a></dd>
+<dd class="global-publisher-selector-photo"><a class="global-publisher-photo-trigger" href="#nogo" onclick="return false;">传照片</a></dd>
+<dd class="global-publisher-selector-share"><a class="global-publisher-share-trigger" href="#nogo" onclick="return false;">发分享</a></dd>
+<dd class="global-publisher-selector-film"><a class="global-publisher-film-trigger" href="#nogo" onclick="return false;">评电影</a></dd><dd class="global-publisher-selector-blog global-publisher-selector-last"><a class="global-publisher-blog-trigger" href="http://blog.renren.com/blog/0/addBlog?bfrom=011200091">写日志</a></dd></dl>
+<div class="status-textarea">
+<textarea name="content" class="status-content" defaultpos="" defaultmodule="" placeholder="你正在干嘛？"></textarea>
+</div>
+<div class="status-toolbar" style="display:none">
+<div data-option='{"con": "with_470947981", "btn": "with_470947981_btn"}' id="with_470947981" class="ugc-with-input"></div>
+<a data-option='{"con": "with_470947981", "btn": "with_470947981_btn"}' class="ugc-with-btn" id="with_470947981_btn" href="#nogo"> 和谁</a>
+<!-- with引导弹層 --><a class="emotion-button" href="#emotion"> 表情</a><!-- 大表情引导icon --><input class="speech-button" style="display:none;" type="text" x-webkit-speech="speech" lang="zh_CN" title="语音输入" />
+<div class="chars-info" style="display:none"><span class="chars-remain">240</span></div>
+</div>
+</div>
+<div class="global-publisher-modules-box">
+<menu>
+<li><a class="close" style="display:none;" href="#" onclick="return false;">关闭</a></li>
+</menu><div style="display:none" class="global-publisher-module-box" id="global-publisher-film-box">
+<article class="global-publisher-film" id="global-publisher-film">
+<section>
+<div style="display:none" class="film-inputer-box"></div>
+<div style="display:none" class="film-list-box"></div>
+</section>
+</article>
+</div>
+<div id="global-publisher-video-box" class="global-publisher-module-box" style="display:none">
+<article id="global-publisher-video" class="global-publisher-share">
+<section>
+<div class="input-link-box" style="display:none">
+</div>
+<div class="input-comment-box" style="display:none">
+</div>
+</section>
+</article>
+</div>
+<div id="global-publisher-music-box" class="global-publisher-module-box" style="display:none">
+<article class="global-publisher-music">
+<section>
+<div class="input-search-box" style="display:none">
+</div>
+<div class="publish-song-box" style="display:none">
+</div>
+</section>
+</article>
+</div>
+<div id="global-publisher-share-box" class="global-publisher-module-box" style="display:none">
+<article id="global-publisher-share" class="global-publisher-share gps">
+<section>
+<div class="input-link-box" style="display:none">
+</div>
+<div class="input-comment-box" style="display:none">
+</div>
+</section>
+</article>
+</div>
+<div id="global-publisher-photo-box" class="global-publisher-module-box" data-action="http://shell.renren.com/479239535/photo" style="display:none">
+<article id="global-publisher-photo" class="global-publisher-photo">
+<section>
+<div class="upload-selector" style="display:none">
+<section class="multiple-uploader">	
+<a href="#nogo" onclick="return false;">
+<h4>多张上传</h4>
+<p>上传多张照片</p>
+</a>
+</section><section class="single-uploader">
+<div class="global-publisher-photo-trigger">
+<input type="file" name="file" /><input style="display:none;" type="submit" name="upload" formtarget="global-publisher_upload" formenctype="multipart/form-data" formaction="http://upload.renren.com/upload.fcgi?pagetype=addpublishersingle&hostid=479239535&callback=window.parent.getPublisherPhotoData" formmethod="post"/><input type="hidden" name="hostid" value="479239535" />
+</div>
+<a href="#nogo" onclick="return false;">
+<h4>快速上传</h4>
+<p>上传一张照片</p>
+</a>
+</section>
+<section class="video-uploader">
+<a href="#nogo" onclick="return false;">
+<h4>上传视频</h4>
+<p>上传一段视频</p>
+</a>
+</section>
+</div>
+<div class="photo-info-box" style="display:none">
+</div>
+</section>
+</article>
+</div>
+</div>
+<div class="global-publisher-footer" style="display:none"><div class="global-publisher-actions">
+<a class="privacy-trigger" id="privacy_create_status" data-toggle="privacy" data-option='{"ugcType": "status"}'><i class="privacy-icon picon-public"></i><input type="hidden" value="{&quot;sourceControl&quot;: 99}" autocomplete="off" name="privacyParams"><span>公开</span><i class="privacy-icon picon-arrow-down"></i></a><input class="submit" type="submit" value="发布" /></div>
+<div class="last-status" style="display:none;"><a ui-async="async" title="［转］最近不少学弟问我，是不是已经加入别的实验室的同学来Xiyou Linux这里面试会被加入黑名单。我严正声明下，我们从来没有和任何实验室有过此类协议。我们一贯公平公正的对待任何一个来实验室面试的同学，不会因为你之前的选择而有不公正待遇。同时，我们秉承着自由，开放，分享的精神对待所有热爱Linux，热爱开源的同学。" href="http://status.renren.com/status?id=479239535">
+n天前:［转］最近不少学弟问...爱开源的同学。
+</a>     
+</div>
+</div>
+</div>
+</div>
+</section>
+</article>
+</div>
+</form>
+</div></div>
+<div class="ugc-operations clearfix" style="display:none;">
+<a stats="V6Pub_uploadphoto" class="uo-upload-photo flashUploader" href="#nogo" onclick="return false;">传照片</a>
+<a stats="V6Pub_compose" class="uo-new-blog" href="http://blog.renren.com/blog/0/addBlog?bfrom=011200091">写日志</a>
+</div>
+</div><div class="site-header-tips-holder">
+<div class="user-info-grade">
+<span class="tip-arrow-top"></span>
+<div class="tip-content">
+<a class="level" href="http://sc.renren.com/scores/myscore"><img class="levelHot-4" src="http://a.xnimg.cn/a.gif" /><img class="levelHot-1" src="http://a.xnimg.cn/a.gif" /></a>
+<span class="user-grade">17级</span><span class="user-live-days">连续登录550天</span>
+</div>
+</div>
+<div class="user-info-vip">
+<span class="tip-arrow-top-vip"></span>
+<div class="tip-content">					
+<span class="user-grade">您的VIP已经到期</span>
+<span class="user-live-days">立即续费保留等级！</span></div>
+</div>
+</div>
+<div class = "miss-login-tips-holder">
+<div class = "miss-login-tip">
+<span class = "tip-arrow-top"></span>
+<div class = "tip-content clearfix">
+<p>你在某些天忘记登录人人网了，快去使用补登录卡增加自己的连续登录天数！<a class = 'go-to-repair' href='http://sc.renren.com/scores/mycalendar'>进入日历>></a></p>
+<a href="javascript:;" class = "miss-login-close">关闭</a>
+</div>
+</div>
+</div></div>
+</div><div id="main">
+<div id="sidebar" class="useNewLeftBar">
+<div class="site-menu-box box">
+<div class="site-menu-nav-box">
+<article id="site-menu-nav" class="site-menu-apps">
+<h3>我常用的</h3>
+<section class="site-menu-apps-base">
+<div class="apps-item" data-id="1001" data-type="0" data-color="http://a.xnimg.cn/imgpro/v6/icon/feed.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/feed-normal.png">
+<div class="item-title">
+<a href="http://www.renren.com/479239535" ui-async="async"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/feed-normal.png" /> 新鲜事</a>
+</div>
+</div>
+<div class="apps-item" data-id="1002" data-type="0" data-notice="true" data-color="http://a.xnimg.cn/imgpro/v6/icon/matter-logo2.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/matter-logo.gif">
+<div class="item-title">
+<a stats="V6Homeleft_matter" href="http://matter.renren.com/479239535?page=0&from=homeleft" ui-async="async"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/matter-logo.gif" /> 与我相关<span class="apps-item-count" id="rm_feed_count" ><i>0</i></span></a>
+</div>
+<div class="item-editor" data-appid="1002"></div>
+</div>
+<div id="appsItem_166613" class="apps-item" data-id="166613" data-type="0" data-notice="true" data-color="http://a.xnimg.cn/imgpro/v6/icon/photo-color.png" data-normal="http://a.xnimg.cn/imgpro/v6/icon/photo.png">
+<div class="item-title">
+<a stats="V6Homeleft_album" href="http://www.renren.com/photo/479239535/album/friends?origin=50119" ui-async="async"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/photo.png" /> 相册<span class="apps-item-count" id="photoCountAlone"><i>20+</i></span></a>
+</div>
+<div class="item-editor" data-appid="166613"></div>
+</div>
+<div id="appsItem_1009" class="apps-item" data-id="1009" data-type="0" data-color="http://a.xnimg.cn/imgpro/v6/icon/searchfriend-color.png" data-normal="http://a.xnimg.cn/imgpro/v6/icon/searchfriend.png">
+<div class="item-title">
+<a href="http://friend.renren.com/myfriendlistx.do?from=leftmenu"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/searchfriend.png" /> 好友</a>
+</div>
+</div><div class="apps-item" data-color="http://a.xnimg.cn/imgpro/v6/icon/college-square-hover.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/college-square.gif">
+<div class="item-title">
+<a href="http://xiaoyuan.renren.com" target="_blank" style="background:url(http://a.xnimg.cn/imgpro/v6/icon/logo-square-new.gif) no-repeat 75% center;"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/college-square.gif" /> 校园广场</a>
+</div>
+</div>
+</section>
+<section class="site-menu-apps-favor">
+<div class="apps-item" id="appsItem_166615" data-type="1" data-notice="true" data-color="http://app.xnimg.cn/application/20130130/12/05/L1u6T231n018153.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/share.gif">
+<div class="item-title">
+<a stats="V6Homeleft_share"  href="http://share.renren.com?origin=50119"  ui-async="async"><img src="http://a.xnimg.cn/imgpro/v6/icon/share.gif"class="icon"> 分享</a>
+</div>
+<div class="item-editor" data-appid="166615"></div>
+</div></section>
+<section id="saveAppsOrder" class="site-menu-apps-favor-save-order" style="display:none;">
+<a href="#nogo" onclick="return false;">完成排序</a>
+</section>
+</article>
+<article id="site-menu-promote" style="display:none;" class="site-menu-apps">
+<h3>推广</h3>
+<div id="ad100000000119"></div>
+</article>
+<article id="site-menu-friend" class="site-menu-apps">
+<div class="app-title clearfix">
+<h3>我的分组</h3>
+<a href="http://friend.renren.com/myfriendlistx.do?from=leftmenumore" target="_blank" class="more-new">更多</a>
+</div>
+<div id="item1010" class="apps-item" data-id="1010" data-type="0" data-color="http://a.xnimg.cn/imgpro/v6/icon/follow-color.png" data-normal="http://a.xnimg.cn/imgpro/v6/icon/follow-normal.png">
+<div class="item-title">
+<a href="http://www.renren.com/leftmenu/follow" ui-async="async" id="follow-left"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/follow-color.png" /> 关注</a>
+</div>
+</div>
+<div class="apps-item" data-type="0" data-id="999999">
+<div class="item-title">
+<a href="http://friend.renren.com/myfriendlistx.do#item_0" target="_blank"><img class="icon" src="http://a.xnimg.cn/imgpro/v6/icon/add.png" /> 创建好友分组</a>
+</div>
+</div><section class="site-menu-apps-friend"><section class="site-menu-friend-more" style="display:none;"></section>
+</section></article><article class="site-menu-apps" id="site-menu-apps-nav"><div class="app-title clearfix">
+<h3>我使用的</h3>
+<a href="http://app.renren.com/app/editApps" ui-async="async" class="more-new">更多</a>
+</div>
+<section class="site-menu-apps-others">
+<div id="appsItem_1004" class="apps-item" data-id="1004" data-type="0" data-notice="true"  data-color="http://a.xnimg.cn/imgpro/v6/icon/app.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/app-normal.png">
+<div class="item-title">
+<a stats="V6Homeleft_appCenter" href="http://app.renren.com/?origin=50170&from=menu#new-game" target="_blank" class="with-count"> <img width="16" height="16" src="http://a.xnimg.cn/imgpro/v6/icon/app-normal.png" class="icon" /> 
+应用中心<span class="apps-item-count" style="display:block;">20+</span></a>
+</div>
+<div class="item-editor" data-appid="1004"></div>
+</div>
+<div class="apps-item" data-id="1005" data-type="0" data-color="http://a.xnimg.cn/imgpro/v6/icon/game-color.png" data-normal="http://a.xnimg.cn/imgpro/v6/icon/game-normal.png">
+<div class="item-title">
+<a stats="V6Homeleft_webGame" href="http://wan.renren.com/" target="_blank"> <img width="16" height="16" src="http://a.xnimg.cn/imgpro/v6/icon/game-normal.png" class="icon" /> 网页游戏</a>
+</div>
+</div><section class="site-menu-apps-appitem">
+<div class="apps-item" id="appsItem_95003" data-cantdel="true" data-type="1" data-color="http://app.xnimg.cn/application/20130619/19/50/LSq5K5b020051.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/page.png">
+<div class="item-title">
+<a stats="V6Homeleft_page" href="http://page.renren.com?origin=50115" target="_blank" ui-async="async"><img class="icon" width="16" height="16" src="http://a.xnimg.cn/imgpro/v6/icon/page.png" />  
+公共主页
+</a>
+</div>
+<div class="item-editor" data-appid="95003"></div>
+</div>
+<div class="apps-item" id="appsItem_166616" data-cantdel="true" data-type="1" data-color="http://app.xnimg.cn/application/20130130/12/05/LVyE8232n018153.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/zhan.png">
+<div class="item-title">
+<a stats="V6Homeleft_zhan" href="http://zhan.renren.com/home?from=homeTab&id=479239535&origin=50115" target="_blank"><img class="icon" width="16" height="16" src="http://a.xnimg.cn/imgpro/v6/icon/zhan.png" />  
+小站
+</a>
+</div>
+<div class="item-editor" data-appid="166616"></div>
+</div>
+<div class="apps-item" id="appsItem_166617" data-cantdel="true" data-type="1" data-color="http://app.xnimg.cn/application/20130130/12/05/Lqyr3221h018153.gif" data-normal="http://a.xnimg.cn/imgpro/v6/icon/group.gif">
+<div class="item-title">
+<a stats="V6Homeleft_xiaozu" href="http://xiaozu.renren.com?origin=50115" target="_blank"><img class="icon" width="16" height="16" src="http://a.xnimg.cn/imgpro/v6/icon/group.gif" />  
+小组
+</a>
+</div>
+<div class="item-editor" data-appid="166617"></div>
+</div><div class="site-menu-apps-more" style="display:none;"></div>
+</section>
+</section><div class="app-title clearfix">
+<h3>热门应用</h3>
+</div>
+<section class="site-menu-apps-spread"><div class="apps-item clearfix" id="appsItem_246819" data-type="5" data-notice="true" data-color="http://app.xnimg.cn/application/20140117/18/40/Lx2PB128p020051.gif" data-normal="http://app.xnimg.cn/application/20140117/18/40/Lx2PB128p020051.gif">
+<div class="item-title">
+<span class="item-main">
+<a href="http://apps.renren.com/jianying?origin=50331" target="_blank" target="_blank">
+<img class="icon" width="16" height="16" src="http://app.xnimg.cn/application/20140117/18/40/Lx2PB128p020051.gif" /> 剑影
+</a>
+</span>
+</div><div class="item-editor" data-appid="246819"></div>
+</div><div class="apps-item clearfix" id="appsItem_265153" data-type="5" data-notice="true" data-color="http://app.xnimg.cn/application/20140305/13/30/LjMtr20f020051.gif" data-normal="http://app.xnimg.cn/application/20140305/13/30/LjMtr20f020051.gif">
+<div class="item-title">
+<span class="item-main">
+<a href="http://apps.renren.com/lzwzhang?origin=50332" target="_blank" target="_blank">
+<img class="icon" width="16" height="16" src="http://app.xnimg.cn/application/20140305/13/30/LjMtr20f020051.gif" /> 龙之纹章
+</a>
+</span>
+</div><div class="item-editor" data-appid="265153"></div>
+</div><div class="apps-item clearfix" id="appsItem_21461" data-type="5" data-notice="true" data-color="http://app.xnimg.cn/application/20090109/18/05/L559680023291HUA.gif" data-normal="http://app.xnimg.cn/application/20090109/18/05/L559680023291HUA.gif">
+<div class="item-title">
+<span class="item-main">
+<a href="http://apps.renren.com/boyaa_texas/?origin=50333" target="_blank" target="_blank">
+<img class="icon" width="16" height="16" src="http://app.xnimg.cn/application/20090109/18/05/L559680023291HUA.gif" /> 德克萨斯扑克
+</a>
+</span>
+</div><div class="item-editor" data-appid="21461"></div>
+</div><div class="apps-item clearfix" id="appsItem_237815" data-type="5" data-notice="true" data-color="http://app.xnimg.cn/application/20130702/10/10/LIu0n38i020051.gif" data-normal="http://app.xnimg.cn/application/20130702/10/10/LIu0n38i020051.gif">
+<div class="item-title">
+<span class="item-main">
+<a href="http://apps.renren.com/tdhaizei/?origin=50334" target="_blank" target="_blank">
+<img class="icon" width="16" height="16" src="http://app.xnimg.cn/application/20130702/10/10/LIu0n38i020051.gif" /> 塔防海贼王
+</a>
+</span>
+</div><div class="item-editor" data-appid="237815"></div>
+</div><div class="apps-item clearfix" id="appsItem_264769" data-type="5" data-notice="true" data-color="http://app.xnimg.cn/application/20140223/19/45/L4MVU39b020051.gif" data-normal="http://app.xnimg.cn/application/20140223/19/45/L4MVU39b020051.gif">
+<div class="item-title">
+<span class="item-main">
+<a href="http://apps.renren.com/sgmjiang?origin=50335" target="_blank" target="_blank">
+<img class="icon" width="16" height="16" src="http://app.xnimg.cn/application/20140223/19/45/L4MVU39b020051.gif" /> 三国名将
+</a>
+</span>
+</div><div class="item-editor" data-appid="264769"></div>
+</div></section></article>
+</div>	
+</div>
+</div>
+<div id="container2">
+<div id="main2"><div id="content" ui-rel="prefetchframe" class="x-prefetchframecontent">
+<div class="today-topic">人人话题：<a href="http://huati.renren.com/digeshuozijicengshibaiwanfuweng?from=publisher" target="_blank">说说你遇到最有意思的的哥</a></div><script>
+// <![CDATA[
+XN.DOM.ready(function(){
+announcement_show('notice_system','479239535')
+});           
+function closeNotice(){               
+announcement_close('479239535','notice_system'); 
+}             
+function clickNotice(url,openWin){
+announcement_click( '479239535' , url , openWin , 'notice_system' );
+}
+// ]]>
+</script>
+<div id="notice_system"></div><div style="display:none;">
+<div id="replyDiv" class="reply-notify news-feed" style="display:none"><div class="section-header">
+<h2>新留言及回复<span class="stat" id="gossipReplyCount"></span></h2>
+</div>
+<div id="opilist" class="feed-story"></div>
+</div>
+</div>
+<div id="newsfeed-module-box" class="newsfeed-module-box box">
+<script>
+window.feedGroupNum = '' ;
+window.groupload = false;
+window.friendcontent = false;
+window.singlefocus = false;
+window.deleteFeedGuideFlag = false;
+XN.namespace( 'newsfeed' );
+XN.$extend(XN.newsfeed, {	
+'isFeedException':false,
+'missingFeedFlagForLogin':false,
+'needGetMissingFeed':false,
+'fixVersion':true,
+'redbubble':true
+});
+</script><div class="feed-module experiment" data-loadonscroll="true" data-host="">			
+<div class="clearfix tabview_header">
+<div class="experiment-line clearfix" ></div>
+<div class="experiment_type feed_type clearfix">
+<div class="experiment-first item selected" >
+<a class="item_link"  href="#nogo" stats="V6Feed_refresh" id="feedall-new"  >
+<span id="all-feed-new" >新鲜事</span>
+</a>
+</div>
+<div class="experiment-third item">
+<a class="item_link" id="group-focus2" href="#nogo">特别关注<span class="newfocuspic">new</span></a></div>
+<div class="experiment-second item">
+<div class="item_link"   id="friend-content">
+<span id="change-word" data-id="fr-con">关注内容</span>
+</div>		
+</div></div>	
+<div class="right_bar">
+<div class="btn_reload">
+<a id="reload-hover2" href="#nogo"  ></a>
+<span class="reload-tips">
+<span class="reload-tip-content">
+刷新
+</span>
+<span class="reload-tip-footer"></span>					
+</span>
+</div>
+<div class="set_bar">
+<a class="set-feed"  href="#nogo" >
+</a>
+<span class="set-tips">
+<span class="set-tip-content">
+新鲜事设置
+</span>
+<span class="set-tip-footer"></span>					
+</span>
+</div>
+<div class="set_time  " >
+<a onclick="return false;" data-id="timecontent" id="feedTabTime" href="#nogo" stats="V6Feed_timeFeed" class="feedTabTime  "></a>
+<span class="time-tips">
+<span class="tip-content"> 按时间排序 
+</span>
+<span class="tip-footer"></span>					
+</span>
+</div>	
+</div>				
+</div><div class="feed-list"><script>
+UGC.Network.ping.normal.start("100001", "sns.home.feedlist");
+</script><article class="a-feed a-n-feed" id="newsfeed-25256428661"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="507459267" data-name="徐怡真" data-mark="" data-source="5194184923"data-stype="505" data-fid="25256428661" create-time="1400834208221">
+    <a stats="NF_25256428661_505_507459267"href="http://www.renren.com/profile.do?id=507459267&ref=hotnewsfeed&sfet=505&fin=0&fid=25256428661&ff_id=507459267&platform=0&expose_time=1400836222"
+       namecard="507459267" title="徐怡真" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn421/20140127/2040/h_tiny_lusJ_573b00003e1a113e.jpg" width="50" title="徐怡真" /></a></figure>
+</aside><h3 data-wiki=""><a target="_blank" namecard="507459267" href="http://www.renren.com/profile.do?id=507459267&ref=hotnewsfeed&sfet=505&fin=0&fid=25256428661&ff_id=507459267&platform=0&expose_time=1400836222" stats="NF_25256428661_505_507459267">徐怡真</a>&nbsp;: 对，一定要抓住他转自<a href="http://www.renren.com/profile.do?id=407998227" namecard="407998227" target="_blank">徐宗宸乀DazZLe丶</a>: 18792494664也给我打电话。转自<a href="http://www.renren.com/profile.do?id=435282064" namecard="435282064" target="_blank">苏洋<img class='emoji' alt='❤' src='http://a.xnimg.cn/imgpro/emoji/e022.png' />Kobe</a>:转自</h3><div class="content">
+  <div class="source">
+    <div class="rich-content no-media">
+      <div class="content-main">
+        <a stats="NF_25256428661_505_507459267" namecard="435282064" target="_blank" href="http://www.renren.com/profile.do?id=435282064&statID=&level=">苏洋❤Kobe</a>
+        <span style="color:#333;"> :去派出所报案，人家民警说你们长安大学都变成贼窝了，差不多隔四五天就有人报案东西被偷！！！警察都说咱们长安大的保安就是个摆设，一点都不负责人。你们明知道那个瘸子是惯犯，还每次把他放进来学校祸害学生，你丫的还好意思说你们认识他。恬不知耻就知道在学生面前耀武扬威！以后谁在校园里看见那个男人，腿瘸，一米七五左右，短头发，黄皮肤，25岁左右，明显不是学生，看见之后你们提放的同时给我打电话18729537375，我一定要逮住这个贼逼，不能再让他以后来咱们学校祸害其他人了！！！</span>
+      </div></div>
+  </div>
+</div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">33分钟前</span><span class="from"><a stats="NF_25256428661_505_507459267" href="http://page.renren.com/600002551" target="_blank">通过人人iPhone发布</a>
+  </span><a stats="NF_25256428661_505_507459267" href="#nogo" class="share_new_ui share_status" onclick="forwardDoing('5194184923', '507459267', '','');" >分享</a><a stats="NF_25256428661_505_507459267" href="#nogo"  class="ilike_icon" id="ILike5194184923" onclick="ILike_toggleUserLike('status','5194184923','479239535','507459267','任立翔')" >赞</a></div><div class="feed-replies" id="feedbody25256428661"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25256428661" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25256428661" type="checkbox" /><label for="shareThis_25256428661">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">240</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-5194184923" style="display:none;"><div id="reply-params-25256428661" style="display:none;">
+{
+  "cid": "5194184923",
+  "oid":"507459267",
+  "type": "status",
+  "typeNum": "3",
+  "rpLength": "0",
+  "userDigged":"",
+  "digged":"",
+  "stype":"505",
+  "feedOwnerId":"507459267","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25256428661_505_507459267" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加徐怡真到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽徐怡真的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed" id="newsfeed-25255925458"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="99" data-id="479383522" data-name="孙波" data-mark="" data-source="5194148970"data-stype="502" data-fid="25255925458" create-time="1400828178000">
+    <a stats="NF_25255925458_502_479383522"href="http://www.renren.com/profile.do?id=479383522&ref=hotnewsfeed&sfet=502&fin=1&fid=25255925458&ff_id=479383522&platform=0&expose_time=1400836222"
+       namecard="479383522" title="孙波" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn521/20120831/1150/h_tiny_aEP3_72be0000f8d11376.jpg" width="50" title="孙波" /></a></figure>
+</aside><h3 data-wiki="{}"><a target="_blank" namecard="479383522" href="http://www.renren.com/profile.do?id=479383522&ref=hotnewsfeed&sfet=502&fin=1&fid=25255925458&ff_id=479383522&platform=0&expose_time=1400836222" stats="NF_25255925458_502_479383522">孙波</a>&nbsp;: 敢不敢不这么露骨？</h3><div class="content">
+<div class="status-lbs" data-wiki="{}">
+<span class="location">在 <a stats="NF_25255925458_502_479383522" href="http://places.renren.com/web/PoiInfo?id=828555098&type=2&statID=&level=&userId=479383522" namecard="479383522" target="_blank">陕西中医学院</a> </span>
+</div>
+</div><div class="details ui-new">
+  <div class="legend"><a href="javascript:" class="privacy-trigger privacy-trigger-small privacy-trigger-feed" id="privacy_25255925458">
+  <i class="privacy-icon picon-public"></i>
+  <span>公开</span>
+  </a><span class="duration">今天 14:56</span><span class="from"><a stats="NF_25255925458_502_479383522" href="http://page.renren.com/600006117" target="_blank">通过人人Android发布</a>
+  </span><a stats="NF_25255925458_502_479383522" href="#nogo" class="share_new_ui share_status" onclick="forwardDoing('5194148970', '479383522', '','');" >分享</a><a data-gid="status-5194148970" stats="NF_25255925458_502_479383522" href="#nogo"  class="ilike_icon" id="ILike5194148970" onclick="ILike_toggleUserLike('status','5194148970','479239535','479383522','任立翔')" >赞</a></div><div class="feed-replies" id="feedbody25255925458"><div class="a-reply">
+    <a href="http://www.renren.com/profile.do?id=586982540&ref=hotnewsfeed&sfet=502&fin=1&fid=25255925458&ff_id=479383522&platform=0&expose_time=1400836222" class="avatar" target="_blank" namecard="586982540"><img src="http://hdn.xnimg.cn/photos/hdn521/20140331/0005/h_tiny_r777_5fa50005f593111a.jpg" /></a>
+    <div class="reply-content"><p class="text"><a href="http://www.renren.com/profile.do?id=586982540&ref=hotnewsfeed&sfet=502&fin=1&fid=25255925458&ff_id=479383522&platform=0&expose_time=1400836222" namecard="586982540" class="name" target="_blank">姜璐。</a>:&nbsp;我都到了<img src='http://a.xnimg.cn/imgpro/icons/statusface/kbz2.gif' alt='抠鼻' /></p>
+      <div class="bottom-bar">
+        <span class="time">2014-05-23 15:00</span>
+        <div class="action"><a class="ilike_comment" href="javascript:void(0)" comment-data="{'stype':'status','cid':'15858455702', 'rid':'5194148970', 'uid':'479239535', 'oid':'586982540', 'roid':'479383522', 'name':'孙波', 'url':'http://status.renren.com/getdoing.do?id=479383522&doingId=5194148970', 'liked':false}" style="margin-left: 10px;">赞</a><a data-fid="25255925458" data-uid="586982540" data-uname="姜璐。" data-rid="15858455702"
+            href="#nogo" onclick="return false;" class="reply">回复</a>&nbsp;</div>
+      </div>
+    </div>
+  </div></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255925458" data-privacy="{&quot;control&quot;:99,&quot;createTime&quot;:&quot;1400828178000&quot;,&quot;privacyGroupId&quot;:&quot;0&quot;,&quot;owner&quot;:479383522,&quot;ugcGID&quot;:&quot;3530822113052617834&quot;,&quot;public&quot;:true}" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255925458" type="checkbox" /><label for="shareThis_25255925458">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">240</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-5194148970" style="display:none;"><div id="reply-params-25255925458" style="display:none;">
+{
+  "cid": "5194148970",
+  "oid":"479383522",
+  "type": "status",
+  "typeNum": "3",
+  "rpLength": "1",
+  "userDigged":"",
+  "digged":"",
+  "stype":"502",
+  "feedOwnerId":"479383522","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255925458_502_479383522" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加孙波到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽孙波的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25256150359"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="487334044" data-name="于悦" data-mark="" data-source="17291945957"original_actor="0" original_source="0"data-stype="103" data-fid="25256150359" create-time="1400830887361">
+    <a stats="NF_25256150359_103_487334044"href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=2&fid=25256150359&ff_id=487334044&platform=0&expose_time=1400836222"
+       namecard="487334044" title="于悦" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn221/20121018/1255/h_tiny_l9x1_2dc10000034b1375.jpg" width="50" title="于悦" /></a></figure>
+</aside><h3><a target="_blank" namecard="487334044" href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=2&fid=25256150359&ff_id=487334044&platform=0&expose_time=1400836222" stats="NF_25256150359_103_487334044">于悦</a>&nbsp;:&nbsp;分享照片</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/487334044/17291945957?from=0101010302&ref=hotnewsfeed&sfet=103&fin=2&fid=25256150359&ff_id=487334044&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.rrfmn.com/fmn061/20140516/1915/p/m3w225h300q85lt_original_DgeR_3d6b00006b9a125d.jpg" /><div class="long-photo"></div></a></div></div><p class="descript">居然有人如此手贱，把一些我们熟悉的男女明星脸拼在了一起，然后...这画面太美，我不敢看 </p><p class="belong">所属: <a stats="NF_25256150359_103_487334044" href="http://photo.renren.com/photo/429205632/album-1001592565?ref=hotnewsfeed&sfet=103&fin=2&fid=25256150359&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank">开怀一笑百媚生~~笑看他人无颜色~~~</a></p><p class="from">来自:<a stats="NF_25256150359_103_487334044" href="http://www.renren.com/429205632/profile?ref=hotnewsfeed&sfet=103&fin=2&fid=25256150359&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank" namecard="429205632">韩丶珂儿๑๑</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 15:41</span><a data-share="{stype:'create_share_div',id:17291945957,owner:487334044,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25256150359_103_487334044">分享</a><a onclick="ILike_toggleUserLike('share','17291945957','479239535', '487334044','任立翔')" id="ILike17291945957" class="ilike_icon" href="#nogo" stats="NF_25256150359_103_487334044">赞</a></div><div class="feed-replies" id="feedbody25256150359"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25256150359" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25256150359" type="checkbox" /><label for="shareThis_25256150359">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291945957" style="display:none;"><div id="reply-params-25256150359" style="display:none;">
+{
+  "cid": "17291945957",
+  "oid":"487334044",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"487334044","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25256150359_103_487334044" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加于悦到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽于悦的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25255881602"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="487334044" data-name="于悦" data-mark="" data-source="17291781168"original_actor="0" original_source="0"data-stype="103" data-fid="25255881602" create-time="1400827635650">
+    <a stats="NF_25255881602_103_487334044"href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=3&fid=25255881602&ff_id=487334044&platform=0&expose_time=1400836222"
+       namecard="487334044" title="于悦" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn221/20121018/1255/h_tiny_l9x1_2dc10000034b1375.jpg" width="50" title="于悦" /></a></figure>
+</aside><h3><a target="_blank" namecard="487334044" href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=3&fid=25255881602&ff_id=487334044&platform=0&expose_time=1400836222" stats="NF_25255881602_103_487334044">于悦</a>&nbsp;:&nbsp;分享照片</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/487334044/17291781168?from=0101010302&ref=hotnewsfeed&sfet=103&fin=3&fid=25255881602&ff_id=487334044&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.xnpic.com/fmn057/20140516/1910/p/m2w300h300q85lt_original_Zw78_7cdc00002e8c1190.jpg" /></a></div></div><p class="descript">论人的智商究竟可以低到什么程度</p><p class="belong">所属: <a stats="NF_25255881602_103_487334044" href="http://photo.renren.com/photo/428836989/album-993740568?ref=hotnewsfeed&sfet=103&fin=3&fid=25255881602&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank">一颗单纯的大脑想不出来一个相册的名字~~</a></p><p class="from">来自:<a stats="NF_25255881602_103_487334044" href="http://www.renren.com/428836989/profile?ref=hotnewsfeed&sfet=103&fin=3&fid=25255881602&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank" namecard="428836989">李雪</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 14:47</span><a data-share="{stype:'create_share_div',id:17291781168,owner:487334044,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25255881602_103_487334044">分享</a><a onclick="ILike_toggleUserLike('share','17291781168','479239535', '487334044','任立翔')" id="ILike17291781168" class="ilike_icon" href="#nogo" stats="NF_25255881602_103_487334044">赞</a></div><div class="feed-replies" id="feedbody25255881602"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255881602" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255881602" type="checkbox" /><label for="shareThis_25255881602">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291781168" style="display:none;"><div id="reply-params-25255881602" style="display:none;">
+{
+  "cid": "17291781168",
+  "oid":"487334044",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"487334044","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255881602_103_487334044" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加于悦到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽于悦的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25255606363"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="487334044" data-name="于悦" data-mark="" data-source="17291615237"original_actor="0" original_source="0"data-stype="103" data-fid="25255606363" create-time="1400824317108">
+    <a stats="NF_25255606363_103_487334044"href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=4&fid=25255606363&ff_id=487334044&platform=0&expose_time=1400836222"
+       namecard="487334044" title="于悦" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn221/20121018/1255/h_tiny_l9x1_2dc10000034b1375.jpg" width="50" title="于悦" /></a></figure>
+</aside><h3><a target="_blank" namecard="487334044" href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=4&fid=25255606363&ff_id=487334044&platform=0&expose_time=1400836222" stats="NF_25255606363_103_487334044">于悦</a>&nbsp;:&nbsp;分享照片</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/487334044/17291615237?from=0101010302&ref=hotnewsfeed&sfet=103&fin=4&fid=25255606363&ff_id=487334044&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.rrfmn.com/fmn059/20140515/2030/p/m3w225h300q85lt_original_oF9x_402f00005dd0118f.jpg" /><div class="long-photo"></div></a></div></div><p class="descript">你确定是亲妈吗？？？</p><p class="belong">所属: <a stats="NF_25255606363_103_487334044" href="http://photo.renren.com/photo/428986627/album-1008399773?ref=hotnewsfeed&sfet=103&fin=4&fid=25255606363&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank">看个相册抽根烟，冷冷脑子静静心~~</a></p><p class="from">来自:<a stats="NF_25255606363_103_487334044" href="http://www.renren.com/428986627/profile?ref=hotnewsfeed&sfet=103&fin=4&fid=25255606363&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank" namecard="428986627">王颖</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 13:51</span><a data-share="{stype:'create_share_div',id:17291615237,owner:487334044,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25255606363_103_487334044">分享</a><a onclick="ILike_toggleUserLike('share','17291615237','479239535', '487334044','任立翔')" id="ILike17291615237" class="ilike_icon" href="#nogo" stats="NF_25255606363_103_487334044">赞</a></div><div class="feed-replies" id="feedbody25255606363"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255606363" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255606363" type="checkbox" /><label for="shareThis_25255606363">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291615237" style="display:none;"><div id="reply-params-25255606363" style="display:none;">
+{
+  "cid": "17291615237",
+  "oid":"487334044",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"487334044","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255606363_103_487334044" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加于悦到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽于悦的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25255482655"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="418272493" data-name="张展雄" data-mark="" data-source="17291536320"original_actor="264424267" original_source="17290322129"data-stype="103" data-fid="25255482655" create-time="1400822897409">
+    <a stats="NF_25255482655_103_418272493"href="http://www.renren.com/profile.do?id=418272493&ref=hotnewsfeed&sfet=103&fin=5&fid=25255482655&ff_id=418272493&platform=0&expose_time=1400836222"
+       namecard="418272493" title="张展雄" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn421/20131025/1335/h_tiny_nooJ_10b80000061f111a.jpg" width="50" title="张展雄" /></a></figure>
+</aside><h3><a target="_blank" namecard="418272493" href="http://www.renren.com/profile.do?id=418272493&ref=hotnewsfeed&sfet=103&fin=5&fid=25255482655&ff_id=418272493&platform=0&expose_time=1400836222" stats="NF_25255482655_103_418272493">张展雄</a>&nbsp;:&nbsp;//<a href="http://www.renren.com/264424267" namecard='264424267' target="_blank">徐振<img class='emoji' alt='❤' src='http://a.xnimg.cn/imgpro/emoji/e022.png' />Mariana</a>:<img src='http://a.xnimg.cn/imgpro/emotions/tie/7.gif?ver=1' alt='惊恐'  />好凶残</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/418272493/17291536320?from=0101010302&ref=hotnewsfeed&sfet=103&fin=5&fid=25255482655&ff_id=418272493&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.rrimg.com/fmn066/20121006/1130/p/m2w300h300q85lt_original_Kl6s_6d7e000215e4125e.gif.jpg" /><div class="gif-photo">GIF</div></a></div></div><p class="belong">所属: <a stats="NF_25255482655_103_418272493" href="http://photo.renren.com/photo/223790831/album-821722217?ref=hotnewsfeed&sfet=103&fin=5&fid=25255482655&ff_id=418272493&platform=0&expose_time=1400836222" target="_blank">杀戮世界</a></p><p class="from">来自:<a stats="NF_25255482655_103_418272493" href="http://www.renren.com/223790831/profile?ref=hotnewsfeed&sfet=103&fin=5&fid=25255482655&ff_id=418272493&platform=0&expose_time=1400836222" target="_blank" namecard="223790831">金钛锆</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 13:28</span><a data-share="{stype:'create_share_div',id:17291536320,owner:418272493,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25255482655_103_418272493">分享</a><a onclick="ILike_toggleUserLike('share','17291536320','479239535', '418272493','任立翔')" id="ILike17291536320" class="ilike_icon" href="#nogo" stats="NF_25255482655_103_418272493">赞</a></div><div class="feed-replies" id="feedbody25255482655"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255482655" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255482655" type="checkbox" /><label for="shareThis_25255482655">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291536320" style="display:none;"><div id="reply-params-25255482655" style="display:none;">
+{
+  "cid": "17291536320",
+  "oid":"418272493",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"418272493","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255482655_103_418272493" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加张展雄到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽张展雄的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div><div class="similar-feed"><p><a stats="NF_25255482655_103_418272493" href="#nogo" data-similar-feeds="25255472891,">查看另外1条相似的新鲜事</a></p>
+</div></article><article class="a-feed" id="newsfeed-25253748434">
+<!-- 头像 --><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="99" data-id="341677608" data-name="耿进凯♫ Junco" data-mark="" data-source="7825939237"data-stype="701" data-fid="25253748434" create-time="">
+    <a stats="NF_25253748434_701_341677608"href="http://www.renren.com/profile.do?id=341677608&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222"
+       namecard="341677608" title="耿进凯♫ Junco" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn121/20130613/2240/tiny_RnSd_f95b00046038111a.jpg" width="50" title="耿进凯♫ Junco" /></a></figure>
+</aside><h3 data-wiki="{}"><a target="_blank" namecard="341677608" href="http://www.renren.com/profile.do?id=341677608&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222" stats="NF_25253748434_701_341677608">耿进凯♫ Junco</a>&nbsp;:耿进凯♫ Junco通过了哈佛性向测试，获得了115分，是铮铮汉子 每个人的心中都潜藏着另一个ta!来自【哈佛大学的专业性向测试】帮你找出隐藏的自己！ 测试LINK：<a href='http://rrurl.cn/sO96aT' target='_blank' title='http://www.ceshiguang.com/quizitem/show/17/renren/0/32'>http://rrurl.cn/sO96aT </a></h3><div class="content">
+	<div class="clearfix photo-content">
+		<div class="photo-box photo-one-new">
+			<a href="http://photo.renren.com/photo/341677608/photo-7825939237?ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222&psource=1" class="photo-one"><img src="http://fmn.rrimg.com/fmn063/20140523/0800/p/m2w300h300q85lt_original_p9su_6f810000584b1260.jpg" data-photo="{ptype:'photo',large:'http://fmn.rrimg.com/fmn063/20140523/0800/original_p9su_6f810000584b1260.jpg',param:'?ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222',owner:341677608, id:7825939237, lWidth:700, lHeight:400}"></a></div></div>
+</div><div class="details ui-new">
+	<div class="legend"><a href="javascript:" class="privacy-trigger privacy-trigger-small privacy-trigger-feed" id="privacy_25253748434">
+  <i class="privacy-icon picon-public"></i>
+  <span>公开</span>
+  </a><span class="duration">今天 08:04</span><span class="from" data-wiki="{}"><a stats="NF_25253748434_701_341677608" href="http://page.renren.com/601483257" target="_blank">通过测时光发布</a>
+  </span><a stats="NF_25253748434_701_341677608" href="#nogo"  class="share_new" data-share="{stype:'create_share_feed',id:7825939237,owner:341677608,type:'photo'}" >分享</a><a stats="NF_25253748434_701_341677608" href="#nogo"  class="ilike_icon" id="ILike7825939237" onclick="ILike_toggleUserLike('photo','7825939237','479239535','341677608','任立翔')" >赞</a></div><div class="feed-replies" id="feedbody25253748434"><div class="a-reply">
+    <a href="http://www.renren.com/profile.do?id=283489521&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222" class="avatar" target="_blank" namecard="283489521"><img src="http://hdn.xnimg.cn/photos/hdn121/20130915/0000/tiny_SfQh_472d000129e3111a.jpg" /></a>
+    <div class="reply-content"><p class="text" data-wiki="{}"><a href="http://www.renren.com/profile.do?id=283489521&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222" namecard="283489521" class="name" target="_blank">刘超</a>:&nbsp;耿宇直！</p>
+      <div class="bottom-bar">
+        <span class="time">2014-05-23 08:40</span>
+        <div class="action"><a class="ilike_comment" href="javascript:void(0)" comment-data="{'stype':'photo','cid':'8321296351', 'rid':'7825939237', 'uid':'479239535', 'oid':'283489521', 'roid':'341677608', 'name':'耿进凯♫ Junco', 'url':'http://photo.renren.com/photo/341677608/photo-7825939237', 'liked':false}" style="margin-left: 10px;">赞</a><a data-fid="25253748434" data-uid="283489521" data-uname="刘超" data-rid="8321296351"
+            href="#nogo" onclick="return false;" class="reply">回复</a>&nbsp;</div>
+      </div>
+    </div>
+  </div><div class="more-reply">
+    <a data-fid="25253748434" href="#nogo" onclick="return false;" class="more">还有10条回复</a>
+  </div><div class="a-reply">
+    <a href="http://www.renren.com/profile.do?id=341677608&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222" class="avatar" target="_blank" namecard="341677608"><img src="http://hdn.xnimg.cn/photos/hdn121/20130613/2240/tiny_RnSd_f95b00046038111a.jpg" /></a>
+    <div class="reply-content"><p class="text" data-wiki="{}"><a href="http://www.renren.com/profile.do?id=341677608&ref=hotnewsfeed&sfet=701&fin=6&fid=25253748434&ff_id=341677608&platform=0&expose_time=1400836222" namecard="341677608" class="name" target="_blank">耿进凯♫ Junco</a>:&nbsp;回复禹旭: 嗯，没事，放心吧，我也不歧视你<img src='http://a.xnimg.cn/imgpro/emotions/tie/2.gif?ver=1' alt='谄笑' /></p>
+      <div class="bottom-bar">
+        <span class="time">2014-05-23 11:50</span>
+        <div class="action"><a class="ilike_comment" href="javascript:void(0)" comment-data="{'stype':'photo','cid':'8321380631', 'rid':'7825939237', 'uid':'479239535', 'oid':'341677608', 'roid':'341677608', 'name':'耿进凯♫ Junco', 'url':'http://photo.renren.com/photo/341677608/photo-7825939237', 'liked':false}" style="margin-left: 10px;">赞</a><a data-fid="25253748434" data-uid="341677608" data-uname="耿进凯♫ Junco" data-rid="8321380631"
+            href="#nogo" onclick="return false;" class="reply">回复</a>&nbsp;</div>
+      </div>
+    </div>
+  </div></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25253748434" data-privacy="{&quot;createTime&quot;:&quot;0&quot;,&quot;owner&quot;:341677608,&quot;public&quot;:true,&quot;ugcGID&quot;:&quot;3674937303760263973&quot;,&quot;privacyGroupId&quot;:&quot;0&quot;,&quot;control&quot;:99,&quot;parPublic&quot;:true,&quot;parUgcGID&quot;:3819052484955748034,&quot;parCreateTime&quot;:1384932526000}" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><a href="#newsfeed-25253748434" class="fold-reply-disabled" onfocus="this.blur();">收起回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-7825939237" style="display:none;"><div id="reply-params-25253748434" style="display:none;">
+{
+  "cid": "7825939237",
+  "oid":"341677608",
+  "type": "photo",
+  "typeNum": "1",
+  "rpLength": "12",
+  "userDigged":"",
+  "digged":"",
+  "stype":"701",
+  "feedOwnerId":"341677608","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25253748434_701_341677608" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加耿进凯♫ Junco到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽耿进凯♫ Junco的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25254050477"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="480883262" data-name="郝特" data-mark="" data-source="17290718879"original_actor="483657117" original_source="17290588969"data-stype="103" data-fid="25254050477" create-time="1400807341942">
+    <a stats="NF_25254050477_103_480883262"href="http://www.renren.com/profile.do?id=480883262&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222"
+       namecard="480883262" title="郝特" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn121/20140426/2310/h_tiny_dQiR_13e20001ac2f113e.jpg" width="50" title="郝特" /></a></figure>
+</aside><h3><a target="_blank" namecard="480883262" href="http://www.renren.com/profile.do?id=480883262&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" stats="NF_25254050477_103_480883262">郝特</a>&nbsp;:&nbsp;还坐过讲台//<a href="http://www.renren.com/483657117" namecard='483657117' target="_blank">缪敏</a>:分享照片</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/480883262/17290718879?from=0101010302&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.rrfmn.com/fmn059/20140520/1925/p/m2w300h300q85lt_original_x3TI_6fd1000000381260.jpg" /></a></div></div><p class="descript">坐过这个位置的请高调分享！！！据说做个这个位置的人后来都成了精英！！</p><p class="belong">所属: <a stats="NF_25254050477_103_480883262" href="http://photo.renren.com/photo/556451043/album-1013772618?ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" target="_blank">(☆≧▽ ？)ノ我们要去远方看看，...</a></p><p class="from">来自:<a stats="NF_25254050477_103_480883262" href="http://www.renren.com/556451043/profile?ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" target="_blank" namecard="556451043">薛靠帆</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 09:09</span><span class="from"><a stats="NF_25254050477_103_480883262" href="http://page.renren.com/601015709" target="_blank">通过人人Windows Phone发布</a>
+  </span><a data-share="{stype:'create_share_div',id:17290718879,owner:480883262,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25254050477_103_480883262">分享</a><a onclick="ILike_toggleUserLike('share','17290718879','479239535', '480883262','任立翔')" id="ILike17290718879" class="ilike_icon" href="#nogo" stats="NF_25254050477_103_480883262">赞</a></div><div class="feed-replies" id="feedbody25254050477"><div class="a-reply">
+    <a href="http://www.renren.com/profile.do?id=480883262&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" class="avatar" target="_blank" namecard="480883262"><img src="http://hdn.xnimg.cn/photos/hdn121/20140426/2310/h_tiny_dQiR_13e20001ac2f113e.jpg" /></a>
+    <div class="reply-content"><p class="text"><a href="http://www.renren.com/profile.do?id=480883262&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" namecard="480883262" class="name" target="_blank">郝特</a>:&nbsp;还坐过讲台</p>
+      <div class="bottom-bar">
+        <span class="time">2014-05-23 09:09</span>
+        <div class="action"><a class="ilike_comment" href="javascript:void(0)" comment-data="{'stype':'share','cid':'173605000330384384', 'rid':'17290718879', 'uid':'479239535', 'oid':'480883262', 'roid':'480883262', 'name':'郝特', 'url':'http://share.renren.com/share/480883262/17290718879?from=0101010302', 'liked':false}" style="margin-left: 10px;">赞</a><a data-fid="25254050477" data-uid="480883262" data-uname="郝特" data-rid="173605000330384384"
+            href="#nogo" onclick="return false;" class="reply">回复</a>&nbsp;</div>
+      </div>
+    </div>
+  </div><div class="more-reply">
+    <a data-fid="25254050477" href="#nogo" onclick="return false;" class="more">还有1条回复</a>
+  </div><div class="a-reply">
+    <a href="http://www.renren.com/profile.do?id=472281583&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" class="avatar" target="_blank" namecard="472281583"><img src="http://hdn.xnimg.cn/photos/hdn121/20130520/1255/h_tiny_J4Nq_7ef400000243111a.jpg" /></a>
+    <div class="reply-content"><p class="text"><a href="http://www.renren.com/profile.do?id=472281583&ref=hotnewsfeed&sfet=103&fin=7&fid=25254050477&ff_id=480883262&platform=0&expose_time=1400836222" namecard="472281583" class="name" target="_blank">曲奕霖</a>:&nbsp;不管是小学，初中，高中，这个位置我是常客</p>
+      <div class="bottom-bar">
+        <span class="time">2014-05-23 13:38</span>
+        <div class="action"><a class="ilike_comment" href="javascript:void(0)" comment-data="{'stype':'share','cid':'173605132918384640', 'rid':'17290718879', 'uid':'479239535', 'oid':'472281583', 'roid':'480883262', 'name':'郝特', 'url':'http://share.renren.com/share/480883262/17290718879?from=0101010302', 'liked':false}" style="margin-left: 10px;">赞</a><a data-fid="25254050477" data-uid="472281583" data-uname="曲奕霖" data-rid="173605132918384640"
+            href="#nogo" onclick="return false;" class="reply">回复</a>&nbsp;</div>
+      </div>
+    </div>
+  </div></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25254050477" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25254050477" type="checkbox" /><label for="shareThis_25254050477">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><a href="#newsfeed-25254050477" class="fold-reply-disabled" onfocus="this.blur();">收起回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17290718879" style="display:none;"><div id="reply-params-25254050477" style="display:none;">
+{
+  "cid": "17290718879",
+  "oid":"480883262",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "3",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"480883262","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25254050477_103_480883262" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加郝特到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽郝特的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25255324133"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="487334044" data-name="于悦" data-mark="" data-source="17291434511"original_actor="0" original_source="0"data-stype="103" data-fid="25255324133" create-time="1400821153050">
+    <a stats="NF_25255324133_103_487334044"href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=8&fid=25255324133&ff_id=487334044&platform=0&expose_time=1400836222"
+       namecard="487334044" title="于悦" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn221/20121018/1255/h_tiny_l9x1_2dc10000034b1375.jpg" width="50" title="于悦" /></a></figure>
+</aside><h3><a target="_blank" namecard="487334044" href="http://www.renren.com/profile.do?id=487334044&ref=hotnewsfeed&sfet=103&fin=8&fid=25255324133&ff_id=487334044&platform=0&expose_time=1400836222" stats="NF_25255324133_103_487334044">于悦</a>&nbsp;:&nbsp;分享照片</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/487334044/17291434511?from=0101010302&ref=hotnewsfeed&sfet=103&fin=8&fid=25255324133&ff_id=487334044&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.xnpic.com/fmn056/20140516/1920/p/m2w300h300q85lt_original_WSzD_13490000867f125f.jpg" /></a></div></div><p class="descript">随手截了下黄海波微博下面的评论</p><p class="belong">所属: <a stats="NF_25255324133_103_487334044" href="http://photo.renren.com/photo/413438872/album-1003623391?ref=hotnewsfeed&sfet=103&fin=8&fid=25255324133&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank">想严肃的看完，却忍不住笑出声来~</a></p><p class="from">来自:<a stats="NF_25255324133_103_487334044" href="http://www.renren.com/413438872/profile?ref=hotnewsfeed&sfet=103&fin=8&fid=25255324133&ff_id=487334044&platform=0&expose_time=1400836222" target="_blank" namecard="413438872">白昊</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 12:59</span><a data-share="{stype:'create_share_div',id:17291434511,owner:487334044,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25255324133_103_487334044">分享</a><a onclick="ILike_toggleUserLike('share','17291434511','479239535', '487334044','任立翔')" id="ILike17291434511" class="ilike_icon" href="#nogo" stats="NF_25255324133_103_487334044">赞</a></div><div class="feed-replies" id="feedbody25255324133"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255324133" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255324133" type="checkbox" /><label for="shareThis_25255324133">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291434511" style="display:none;"><div id="reply-params-25255324133" style="display:none;">
+{
+  "cid": "17291434511",
+  "oid":"487334044",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"487334044","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255324133_103_487334044" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加于悦到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽于悦的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div></article><article class="a-feed a-n-feed" id="newsfeed-25255042760"><aside><figure style="" class="newsfeed-user" noavatar="" data-sourcecontrol="" data-id="330100740" data-name="任立翔" data-mark="" data-source="17291264027"original_actor="333337294" original_source="17291054846"data-stype="103" data-fid="25255042760" create-time="1400818121434">
+    <a stats="NF_25255042760_103_330100740"href="http://www.renren.com/profile.do?id=330100740&ref=hotnewsfeed&sfet=103&fin=9&fid=25255042760&ff_id=330100740&platform=0&expose_time=1400836222"
+       namecard="330100740" title="任立翔" target="_blank"><img src="http://hdn.xnimg.cn/photos/hdn121/20140410/0945/h_tiny_0bN8_74d20003cab4111a.jpg" width="50" title="任立翔" /></a></figure>
+</aside><h3><a target="_blank" namecard="330100740" href="http://www.renren.com/profile.do?id=330100740&ref=hotnewsfeed&sfet=103&fin=9&fid=25255042760&ff_id=330100740&platform=0&expose_time=1400836222" stats="NF_25255042760_103_330100740">任立翔</a>&nbsp;:&nbsp;//<a href="http://www.renren.com/333337294" namecard='333337294' target="_blank">张馨月</a>:哈哈哈哈</h3><div class="content"><div class="rich-content-new"><div class="clearfix photo-content" style="position:relative;">
+          <div class="photo-box photo-one-new">
+            <a href="http://share.renren.com/share/330100740/17291264027?from=0101010302&ref=hotnewsfeed&sfet=103&fin=9&fid=25255042760&ff_id=330100740&platform=0&expose_time=1400836222" class="photo-one" target="_blank"><img  src="http://fmn.xnpic.com/fmn057/20140522/0655/p/m2w300h300q85lt_original_0fbJ_3e6b00011498125d.jpg" /></a></div></div><p class="descript">什么是真正的吃货？下图网友们的各种回答各种真相了……</p><p class="belong">所属: <a stats="NF_25255042760_103_330100740" href="http://photo.renren.com/photo/562048070/album-1013514816?ref=hotnewsfeed&sfet=103&fin=9&fid=25255042760&ff_id=330100740&platform=0&expose_time=1400836222" target="_blank">丧（gan）心（de）病（piao...</a></p><p class="from">来自:<a stats="NF_25255042760_103_330100740" href="http://www.renren.com/562048070/profile?ref=hotnewsfeed&sfet=103&fin=9&fid=25255042760&ff_id=330100740&platform=0&expose_time=1400836222" target="_blank" namecard="562048070">沈乐奕 ...</a></p></div>
+    </div><div class="details ui-new">
+  <div class="legend">
+    <span class="duration">今天 12:08</span><span class="from"><a stats="NF_25255042760_103_330100740" href="http://page.renren.com/600006117" target="_blank">通过人人Android发布</a>
+  </span><a data-share="{stype:'create_share_div',id:17291264027,owner:330100740,host:0,ref:'feed',from:'0101010403' }" class="share_new" href="#nogo" stats="NF_25255042760_103_330100740">分享</a><a onclick="ILike_toggleUserLike('share','17291264027','479239535', '330100740','任立翔')" id="ILike17291264027" class="ilike_icon" href="#nogo" stats="NF_25255042760_103_330100740">赞</a></div><div class="feed-replies" id="feedbody25255042760"></div>
+<div class="feed-comment">
+  <span class="avatar">
+       <img src="http://a.xnimg.cn/a.gif" />
+  </span>
+  <div class="comment-box">
+    <textarea data-fid="25255042760" data-privacy="" autocomplete="off">评论...</textarea>
+    <div class="action">
+      <div class="action-l"><a href="#nogo" onclick="return false;" class="emotion">表情<span class="tip"><span class="arrow"></span>表情</span></a><a href="#nogo" onclick="return false;" class="mention">@<span class="tip"><span class="arrow"></span>点名</span></a><span class="share">
+          <input id="shareThis_25255042760" type="checkbox" /><label for="shareThis_25255042760">同时分享</label>
+        </span></div>
+      <div class="action-r">
+        <a href="#nogo" onclick="return false;" class="submit submit-disabled">回复</a><span class="count"><span class="inputed">0</span>/<span class="maxlength">140</span></span>
+      </div>
+    </div>
+  </div>
+</div><div id="get-params-for-ilike-17291264027" style="display:none;"><div id="reply-params-25255042760" style="display:none;">
+{
+  "cid": "17291264027",
+  "oid":"330100740",
+  "type": "share",
+  "typeNum": "4",
+  "rpLength": "",
+  "userDigged":"",
+  "digged":"",
+  "stype":"103",
+  "feedOwnerId":"330100740","loadURI": "http://comment.renren.com/comment/xoa2/",
+     "sendURI": "http://comment.renren.com/comment/xoa2/create",
+     "delURI": "http://comment.renren.com/comment/xoa2/commentId/remove",
+     "cSection": "true"}
+</div>
+</div></div><div class="feed-toolbar feed-toolbar-new"><menu type="toolbar"><li><a stats="NF_NEWSDEL_25255042760_103_330100740" href="#nogo" class="delete" >删除</a></li><li><menu class="feed-dropmenu">
+            <label></label>
+              <menu>
+                 <li><a class="feed-focus-user" href="#nogo">添加任立翔到特别关注</a></li>
+                 <li><a class="feed-block-user" href="#nogo">屏蔽任立翔的新鲜事</a></li>
+              </menu>
+            </menu>
+          </li></menu>
+</div><div class="similar-feed"><p><a stats="NF_25255042760_103_330100740" href="#nogo" data-similar-feeds="25255026467,25255031185,">查看另外2条相似的新鲜事</a></p>
+</div></article><script>
+UGC.Network.ping.normal.end("100001", "sns.home.feedlist", 2, 150);
+</script> 
+</div><div id="ad100000000101"></div>
+<div class="feed-footer">
+<div class="feed-loading" style="display:none"><p>新鲜事读取中...</p></div>
+<div class="nomore-feed" style="display:none"><p>没有新鲜事了，去看看更多<a href="http://share.renren.com/?from=nofeed">热门分享</a></p></div>
+<div class="more-feed"><a id="more-feed" href="#">更多新鲜事</a></div><p class="mark-all-read" ><a href="javascript:;">全部标记为已读</a></p></div></div>
+</div>
+<div id="feed-recommend-content-box" class="feed-recommend-content-box box"></div>
+<div class="star-new">
+<a style="float:right;font-size:14px;font-weight:bold" href="javascript:;" 
+onclick="XN.DO.confirm({
+message:'确定要关闭人气之星么？',
+callBack:function(r){
+if(r) {
+XN.Cookie.set('people_hot_star479239535', '0', 10000, '/', '.renren.com');
+XN.DOM.getElementsByClassName('star-new')[0].style.display='none';
+}
+else return;}});">×</a>		
+<div class="star-guys">
+<h4>
+西邮人气之星				
+</h4>
+<table class="people-table">
+<tr><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=239925336" title="查看张紫薇L~VE娜的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn121/20120206/1610/h_tiny_0ssM_719b00055d7e2f76.jpg" alt="张紫薇L~VE娜" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=239925336">张紫薇L~VE娜</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=243870806" title="查看吴超的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn521/20130604/2310/h_tiny_yzYA_3a2a0000006f111a.jpg" alt="吴超" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=243870806">吴超</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=256238070" title="查看贺刚的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn121/20100730/1730/tiny_k6Ox_123937b019116.jpg" alt="贺刚" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=256238070">贺刚</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=249124246" title="查看穆毅鹏的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn221/20120402/0000/tiny_56a4_71848m019117.jpg" alt="穆毅鹏" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=249124246">穆毅鹏</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=283841294" title="查看^_^冯静Crystal的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn521/20100410/1215/h_tiny_YqNs_28a2000007072f76.jpg" alt="^_^冯静Crystal" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=283841294">^_^冯静Crystal</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=343958455" title="查看李晔的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn421/20130328/2135/tiny_ZG9B_f8fb00010c0f111a.jpg" alt="李晔" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=343958455">李晔</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=390672056" title="查看郭成程、Leo的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn121/20140119/2140/tiny_87vK_133b000443d7113e.jpg" alt="郭成程、Leo" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=390672056">郭成程、Leo</a></span>
+</td><td>
+<a href="http://www.renren.com/profile.do?portal=homeStar&amp;id=190217676" title="查看常鹏~心飞翔的个人主页">
+<img src="http://hdn.xnimg.cn/photos/hdn421/20130808/0955/tiny_evO7_f9bb000624be111a.jpg" alt="常鹏~心飞翔" width="50" height="50"/>
+</a>
+<span>
+<a class="name" href="http://www.renren.com/profile.do?portal=homeStar&amp;id=190217676">常鹏~心飞翔</a></span>
+</td></tr>
+</table>
+</div></div></div>
+<div id="sidebar2" ui-rel="prefetchframe" class="x-prefetchframecontent"><script>
+UGC.Network.ping.normal.start("100002", "sns.home.rightbar");
+var vipRightMangagePage = true;	
+</script><div class="side-item fortune" id="fortune" style="display:none;">
+<div class="side-item-header clearfix">
+<input type="hidden" id="userIfPin" value='true'/>
+<input type="hidden" id="interval" value='1799998'/>
+<input type="hidden" id="RpRankNum" value='0'/>
+<input type="hidden" id="totalRp" value='1681'/>
+<input type="hidden" id="newGuidePop" value='1'/>
+<input type="hidden" id="refreshRp" value='2'/><h4 class="item_name">攒人品</h4><a title="收起" href="#nogo" id="packUp" class="pack_up"></a><a title="展开" href="#nogo" id="unFold" class="unfold"></a>
+<a id="moreFooter" title="更多" href="http://renpin.renren.com/myrp" target="_blank" class="more"></a>
+</div>
+<div class="side-item-body clearfix"  id="fortune-side-item-body"><div class="fortuneBar"><div class="assembled"></div>
+<div></div>
+<a class="assBtn inactive" id="assembleBtn" href="javascript:void(0)"></a><div class="barRight"><div class="learnMoreIcon" id="rpLearnMoreIcon"></div>
+<a href="http://renpin.renren.com/myrp" target="_blank" class="for_content">
+<span class="totalRp">总RP：<b id="bTotalRpNum">1681</b></span>
+<span>今日RP值：<b id="bTodayRpNum">6</b></span>
+</a>
+<div class="myFreshBtn" id="myFreshBtn">
+<span class="title">刷新已得</span>
+<span class="numBox"><b class="freshNum">2</b>RP</span>
+</div>
+</div>
+</div><div></div><div id="forBarHover"><div class="hoverBoxArrow"></div><span class="hoverBoxBody"></span></div>
+<div id="fortuneLearn">
+<div class="LearnBoxArrow"></div>
+<div class="LearnBoxWin">
+<h3>什么是攒人品？</h3>
+<h4 style="margin-top:22px"><div class="rpLearnIcon"></div>人品值=Renren Power，是你长期混迹于人人网的象征</h4>
+<h4><div class="rpLearnIcon"></div>每日点击一下“攒”可随机获得一定人品值</h4>
+<h4><div class="rpLearnIcon"></div>每半小时刷新页面，也可得到1点人品值</h4>
+<h4><div class="rpLearnIcon"></div>积攒来的人品值可以兑换各种心仪的礼品</h4>
+</div>
+</div>
+<div id="fortuneGuide">
+<div class="fortuneGuideArrow"></div>
+<div class="fortuneGuideWin">
+<div class="firstStep">
+<a href="javascript:void(0)" class="GuideNextBtn" id="forGuideNext"></a>
+</div>
+<div class="secondStep">
+<a href="javascript:void(0)" class="fortuneGuide_close" id="forGuideClose"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="http://s.xnimg.cn/a65683/n/apps/rp/css/fortune-all-min.css"/>
+<script type="text/javascript" src="http://s.xnimg.cn/a63108/n/apps/rp/js/fortune_module.js"></script>
+<script type="text/javascript" src="http://s.xnimg.cn/a61567/n/apps/rp/js/fortune_seed.js"></script><div class="side-item footprint with-arrow" id="footPrint">
+<div class="side-item-header clearfix">
+<h4>最近来访<span> 249</span></h4>
+<a title="下一页" href="#nogo" id="footForward" class="foot-forward"></a>
+<a title="" href="#nogo" id="footBack" class="foot-back foot-back-disable"></a>
+<a id="moreFooter" title="更多" href="http://www.renren.com/myfoot.do" class="more"></a>
+</div>
+<div class="side-item-body clearfix">
+<div id="people-content">
+<ul class="people-list" id="footPrintList"><li>
+<span class="headpichold">
+<a namecard="491969517" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=491969517"><img src="http://hdn.xnimg.cn/photos/hdn221/20140415/1225/h_tiny_M68o_1adb0000f74e113e.jpg" width="30" height="30" /></a>
+</span><span class="time-tip first-tip"><span class="tip-content">全蓬琳 5月19日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="509515378" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=509515378"><img src="http://hdn.xnimg.cn/photos/hdn521/20140516/1625/h_tiny_Rs50_8fd6000068681986.jpg" width="30" height="30" /></a>
+</span><span class="time-tip"><span class="tip-content">朱亚南 5月16日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="481190164" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=481190164"><img src="http://hdn.xnimg.cn/photos/hdn121/20130226/2140/h_tiny_Wt4m_18ae0000013b111a.jpg" width="30" height="30" /></a>
+</span><span class="time-tip"><span class="tip-content">张心怡 5月13日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="330100740" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=330100740"><img src="http://hdn.xnimg.cn/photos/hdn121/20140410/0945/h_tiny_0bN8_74d20003cab4111a.jpg" width="30" height="30" /></a>
+</span><span class="time-tip"><span class="tip-content">任立翔 4月24日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="370327992" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=370327992"><img src="http://hdn.xnimg.cn/photos/hdn521/20130425/2345/h_tiny_aC0B_be1e00000fdb111a.jpg" width="30" height="30" /></a>
+</span><span class="time-tip"><span class="tip-content">王照江 4月20日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="336192657" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=336192657"><img src="http://hdn.xnimg.cn/photos/hdn421/20131127/1415/h_tiny_J6hU_ad990000328b113e.jpg" width="30" height="30" /></a>
+</span><span class="time-tip last-second-tip"><span class="tip-content">李志尧 4月20日</span>
+<span class="tip-footer"></span>
+</span>
+</li><li>
+<span class="headpichold">
+<a namecard="469778665" href="http://www.renren.com/profile.do?portal=homeFootprint&amp;ref=home_footprint&amp;id=469778665"><img src="http://hdn.xnimg.cn/photos/hdn121/20140128/1920/h_tiny_BMVh_1f6400006bbf113e.jpg" width="30" height="30" /></a>
+</span><span class="time-tip last-tip"><span class="tip-content">杨曼 4月19日</span>
+<span class="tip-footer"></span>
+</span>
+</li></ul>
+</div></div>
+<input type="hidden" value="249" id="visitCount" />
+<input type="hidden" value="479239535" id="userIdFP" />
+</div><div id="recommendFriends" style="display:none">
+<div class="side-item recommend-friend">
+<div class="side-item-header clearfix">
+<h4>好友推荐</h4>
+<div class="option">
+<a href="#nogo" stats="Recfriend_back" class="pager-back pager-back-disable" onclick="return false" title="上一页"></a>
+<a href="#nogo" stats="Recfriend_forward" class="pager-forward pager-forward-disable" onclick="return false" title="下一页"></a>
+<a title="更多" stats="Recfriend_more" class="more" href="http://friend.renren.com/myfriendlistx.do?portal=4#item_1"></a>
+</div>
+</div>
+<div class="side-item-body clearfix">
+<ul style="width:5000px;left:0px;" class="recommend-friends-list"></ul>
+</div>
+</div>
+</div>
+<div id="ad100000000100"></div><div id="sponsorsWidget" style="display:none"></div><div id="homeBirthdayPart">
+<div class="side-item birthday">
+<input type="hidden" value="1" />
+<div class="side-item-header clearfix">
+<h4>好友生日</h4>
+<div class="option"><span data="[{fmtDate:'05-23'}]"><a href="#nogo">今天</a><span>|</span></span>						<span data="[{fmtDate:'05-24'}]"><a href="#nogo">05-24</a><span>|</span></span>						
+<span class="act" data="[{fmtDate:'05-25'}]">05-25<span>|</span></span>						
+<a href="http://gift.renren.com/show/birth/monthly" target="_blank">更多</a></div>
+</div>
+<div class="side-item-body clearfix">	<ul >
+<li id="homeBirthday479239535">
+<a class="uhead" href="http://www.renren.com/profile.do?id=496978790" target="_blank">
+<img src="http://hdn.xnimg.cn/photos/hdn321/20130414/1240/tiny_EEK8_ec330001c9a2113e.jpg" alt="野兆明" />
+</a>
+<a class="uname" href="http://www.renren.com/profile.do?id=496978790" target="_blank">野兆明</a>
+<p class="send-gift"><a href="#nogo" class="home_birth_send" data-id=496978790 data-name='野兆明' data-tagid = 45 title="今天收到了0个礼物">
+送礼物</a><span title="今天收到了0个礼物">(0个)</span>
+</p>
+</li>           
+</ul>							</div>
+</div></div><div class="side-item">
+<div class="side-item-header clearfix">
+<h4>站内功能</h4>
+</div>
+<div class="side-item-body clearfix">
+<ul class="web-function">
+
+<li>
+<a href="http://im.renren.com/?subver=9&amp;word03"><img src="http://a.xnimg.cn/imgpro/icons/client3.png" width="15" height="15" /></a>隐身挂机，不开网页玩人人-<a stats="Side_Select_Desk"  href="http://im.renren.com/desktop/rrsetup-9.exe?word03" target="_blank">人人桌面</a><img src="http://a.xnimg.cn/imgpro/icons/new-bullet.gif" class="new" />
+</li>
+<li>
+<a href="http://mobile.renren.com/home?psf=40006"><img src="http://a.xnimg.cn/imgpro/icons/phone.png" width="16" height="16" alt="" /></a>无线产品中心 ：<a href="http://mobile.renren.com/home?psf=40006" target="_blank">体验新版人人客户端 <img class="new" src="http://a.xnimg.cn/imgpro/icons/new-bullet.gif"></a>
+</li>
+<li>
+<a href="http://huodong.renren.com/event/676"><img src="http://a.xnimg.cn/imgpro/icons/icon_huodong.png" width="16" height="16" alt="" /></a>人人活动：<a href="http://huodong.renren.com/event/" target="_blank">玩人人活动，让人人惊喜！</a>
+</li></ul>
+</div>
+</div> <div id="ad1000000065" style="display: none"></div><div class="ready-to-fix"><div class="side-item pymk pymk-home" style="display:none" id="pymk_home_2">
+<div class="side-item-header pymk-header clearfix">
+<h4>推荐</h4>
+<div class="option">
+<a href="#nogo" class="pager-back pager-back-disable" title="上一页"></a>
+<a href="#nogo" class="pager-forward pager-forward-disable" title="下一页"></a>
+<a href="http://friend.renren.com/myfriendlistx.do?portal=4#item_1" class="more" title="更多"></a>
+</div>
+</div>
+<div class="side-item-body pymk-body clearfix">
+<ul class="recognize" id="commonFriends_home_2"></ul>
+</div>
+</div>		<div id="ad1000000093"></div><div id="friendPhotoCon">
+<div id="ad100000100001"></div>
+<div id="friendPhoto"></div>
+</div></div>
+
+	<style>
+#tools-box{display: none!important;}
+#rightapp_side_div {
+position: fixed;
+_position: absolute;
+right: 0;
+top: 160px;
+height: 150px;
+z-index: 1998;
+}
+#rightapp_side_div .link {
+display: block;
+height: 150px;
+width: 60px;
+background: url(http://s.xnimg.cn/n/apps/profile/modules/tuiguang/2014.4.16..v8.png) no-repeat;
+text-indent: -9999em;
+outline: none;
+}
+#rightapp_side_div .close {
+position: absolute;
+right: 2px;
+bottom: -22px;
+display: block;
+height: 18px;
+width: 46px;
+text-indent: -9999em;
+background: url(http://a.xnimg.cn/imgpro/activity/gy/close.jpg) 0 0 no-repeat;
+cursor: pointer;
+outline: none;
+}
+#rightapp_side_div .close:hover {
+background-position: 0 bottom;
+}
+</style>
+<script type="text/javascript">
+jxn(function() {
+var setTimeout = window.asyncHTMLManager.__timer.setTimeout,
+div = jxn('#rightapp_side_div'),
+close = jxn('#rightapp_side_div .close'),
+link = jxn('#rightapp_side_div .link');
+function closeDiv() {
+div.remove();
+}
+close.click(function() {
+new XN.net.xmlhttp({
+url:'http://www.renren.com/activity/homeSpread/closeAppSpread',
+data:'id='+315,
+method:'post',
+onSuccess: closeDiv,
+onError: closeDiv
+});
+});
+window.addEvent('changeLayout', function(e) {
+if (e.layout) {
+div.hide();
+} else {
+div.show();
+}
+});
+window.asyncHTMLManager.addEvent('load',function(){ //点击左侧菜单的到其他页时候去掉widget
+if($('tools-box')){
+return;
+}else{
+var hash = location.hash,
+syBox = jxn('#rightapp_side_div'),
+loc = window.asyncHTMLManager.location,
+path = loc.pathname.replace(/^\/+/, '');
+if (loc.host == location.host && (!path || path == XN.user.id)) {
+if ( !syBox[0] ){
+SeniorYear.appendToBody();
+}
+}else{
+if ( syBox[0] ){
+syBox.remove();
+}
+}
+}
+});
+});
+</script>
+<div id="rightapp_side_div">
+<a href="#nogo" data-id="315" onclick="return false;" title="关闭" class="close">关闭</a>
+<a class="link" target="_blank" href="http://apps.renren.com/jianying?origin=50288">剑影</a>
+</div>		
+
+<script>
+UGC.Network.ping.normal.end("100002", "sns.home.rightbar", 2, 150);
+</script></div>
+</div>
+</div>
+</div>
+<script>
+UGC.Network.ping.normal.end("100009", "sns.home.homepage", 2, 150);
+</script>
+<div id="footer">		
+<div class="site-footer" style="background:#fff;position:relative;">
+<div class="main">
+<ul class="link">
+<li style="margin-right:3px;"><a href="http://www.renren-inc.com/zh/product/renren.html" target="_blank">关于我们</a></li>
+<li style="margin-right:3px;"><a href="http://wan.renren.com" target="_blank">人人游戏</a></li>
+<li style="margin-right:3px;"><a href="http://www.jingwei.com" target="_blank">经纬网</a></li>
+<!-- <li style="margin-right:3px;"><a href="http://www.nuomi.com" target="_blank">糯米网</a></li> -->
+<li style="margin-right:3px;"><a href="http://www.56.com" target="_blank">56网</a></li>
+<li style="margin-right:3px;"><a href="http://mobile.renren.com/mobilelink.do?psf=40002" target="_blank">手机应用</a></li>
+<li style="margin-right:3px;"><a href="http://page.renren.com/register/regGuide/" target="_blank">公共主页</a></li>
+<li style="margin-right:3px;"><a href="http://dev.renren.com" target="_blank">开放平台</a></li>
+<li style="margin-right:3px;"><a href="http://bolt.jebe.renren.com/introduce.htm" target="_blank">自助广告</a></li>
+<li style="margin-right:3px;"><a href="http://page.renren.com/marketing/index" target="_blank">品牌营销</a></li>
+<li style="margin-right:3px;"><a href="http://ir.renren-inc.com/phoenix.zhtml?c=244796&p=irol-irhome" target="_blank">About Us</a></li>
+<li style="margin-right:3px;"><a href="http://www.renren-inc.com/zh/" target="_blank">人人集团</a></li>
+<li style="margin-right:3px;"><a href="http://www.renren-inc.com/zh/hr/" target="_blank">招聘</a></li>
+<li style="margin-right:3px;"><a href="http://support.renren.com/helpcenter" target="_blank">客服帮助</a></li>
+<li style="margin-right:3px;"><a href="http://www.renren.com/siteinfo/privacy" target="_blank">隐私</a></li>
+</ul>
+<span class="copyright">
+人人网<span title="revision$revxxx$; YZSJHL22-162.opi.com">&copy;</span>2014</span>
+</div>
+<div class="haoes">
+<p class="company-name"><span>北京千橡网景科技发展有限公司：</span>
+<span>文网文[2009]169号</span><span class="dot">·</span><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证090254号</a><span class="dot">·</span><span>京公网安备110000000009号</span><span class="dot">·</span><span>甲测资字11002066</span>
+</p>
+<span>文化部监督电子邮箱：wlwh@vip.sina.com</span><span class="dot">·</span><a href="http://a.xnimg.cn/n/core/res/certificate.jpg" target="_blank">互联网药品信息服务资格证</a><span class="dot">·</span><a href="http://py.qianlong.com" target="_blank">北京地区网站联合辟谣平台</a><br>
+<p class="special-add"><span>文明办网文明上网举报电话：4000803580 举报邮箱：admin@renren.com</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bjjubao.org/" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/bljubao.gif" width="25" height="24">北京互联网举报中心
+</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bj.cyberpolice.cn/index.jsp" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/c_2.jpg" width="25" height="24">网络110报警服务</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bjwhzf.gov.cn/accuse.do" target="_blank"><img src="http://s.xnimg.cn/imgpro/civilization/c_3.jpg" width="25" height="24">北京文化市场举报热线</a>
+</div>
+</div>
+</div></div></div><div id="bottombar"></div>
+<div id="toolBackTo" class="back-to" style="display:none;">
+<a stats="site_footer_back_to_top" class="backtotop" href="#top">返回顶部
+<img stats="site_footer_back_to_top" src="http://a.xnimg.cn/imgpro/button/back-tip.png" class="back-tip" />
+</a>
+</div><script src="http://s.xnimg.cn/a12023/jspro/beacon.js"></script>
+<script>
+COMSCORE.beacon({ c1:2, c2:6934070, c3:"", c4:"", c5:"", c6:"", c15:"" });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6934070&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+
+</body>
+</html>
